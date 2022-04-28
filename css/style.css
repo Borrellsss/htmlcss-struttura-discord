@@ -10,6 +10,9 @@
 .container {
     margin: 0 auto;
     width: 70%;
+
+    /* TEST */
+    height: 100%;
 }
 
 nav > ul {
@@ -58,7 +61,7 @@ header {
     align-items: center;
 
     /* TEST */
-    height: 50px;
+    height: 100%;
 }
 
 .logo {
@@ -97,4 +100,73 @@ header {
     /* TEST */
     background-color: #ee82ee;
     border: 1px dotted black;
+}
+
+
+/* MAIN */
+.main-top > section {
+
+    /* TEST */
+    height: 450px;
+}
+
+main section:nth-child(even) {
+
+    /* TEST */
+    background-color: #d3d3d3;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+    /* TEST */
+    height: 100%;
+}
+
+.flex > div {
+
+    /* TEST */
+    border: 1px dotted black;
+}
+
+.flex.top > div {
+
+    /* TEST */
+    height: 80%;
+}
+
+.blue {
+    width: 60%;
+
+    /* TEST */
+    background-color: #1e90ff;
+}
+
+.pink {
+    width: 40%;
+
+    /* TEST */
+    background-color: #ffc0cb;
+}
+
+
+/* MAIN BOTTOM */
+.main-bottom {
+
+    /* TEST */
+    height: 700px;
+}
+
+.flex.bottom > div {
+
+    /* TEST */
+    height: 85%;
+}
+
+.green {
+    width: 100%;
+
+    /* TEST */
+    background-color: #228b22;
 }
