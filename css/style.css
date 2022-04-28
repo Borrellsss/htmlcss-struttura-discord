@@ -9,7 +9,7 @@
 /* COMMON */
 .container {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
 
     /* TEST */
     height: 100%;
@@ -57,6 +57,7 @@ header {
 }
 
 .flex-container {
+    width: 100%;
     display: flex;
     align-items: center;
 
@@ -99,7 +100,7 @@ header {
 
     /* TEST */
     background-color: #ee82ee;
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
 
 
@@ -127,7 +128,7 @@ main section:nth-child(even) {
 .flex > div {
 
     /* TEST */
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
 
 .flex.top > div {
@@ -155,7 +156,7 @@ main section:nth-child(even) {
 .main-bottom {
 
     /* TEST */
-    height: 700px;
+    height: 600px;
 }
 
 .flex.bottom > div {
@@ -169,4 +170,76 @@ main section:nth-child(even) {
 
     /* TEST */
     background-color: #228b22;
+}
+
+
+/* FOOTER */
+footer {
+
+    /* TEST */
+    height: 500px;
+    background-color: #23272a;
+}
+
+footer > div {
+
+    /* TEST */
+    border: 1px solid white;
+}
+
+
+/* FOOTER TOP */
+.footer-top {
+
+    /* TEST */
+    height: 430px;
+}
+
+.foot-flex {
+    display: flex;
+    align-items: center;
+
+    /* TEST */
+    height: 100%;
+}
+
+.foot-flex > div {
+    width: calc(70% / 4);
+
+    /* TEST */
+    height: 90%;
+    border: 2px dotted white;
+    background-color: #20b2aa;
+}
+
+.foot-flex > div:first-child {
+    width: 30%;
+
+    /* TEST */
+    background-color: #f08080;
+    border-color: black;
+}
+
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+
+    /* TEST */
+    height: 70px;
+}
+
+.flex-container.foot {
+    padding: 0;
+    justify-content: space-between;
+
+    /* TEST */
+    height: 70%;
+    background-color: #7fffd4;
+}
+
+.footer-logo,
+.footer-button {
+
+    /* TEST */
+    background-color: #ffb6c1;
 }
